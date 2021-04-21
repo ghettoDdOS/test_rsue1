@@ -1,0 +1,206 @@
+a{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+}
+.bg-image{
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: auto;
+}
+.nav-up {
+    padding: 40px 0;
+}
+.nav-up-70 {
+    padding: 70px 0;
+}
+.main-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.headers-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 150%;
+    color: #3444B8;
+    text-align: center;
+}
+.btn-lg {
+    width: 100%;
+    min-height: 70px;
+}
+#text-block{
+    margin: auto;
+}
+.img-fluid{
+    margin: auto;
+}
+.thin-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.medium-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.bold-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.cards-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.btn-primary{
+    background-color: #5b98e3 !important;
+    border: 0 !important;
+}
+@media (max-width: 767.98px) { 
+    #text-block{
+        text-align: center;
+    }
+    .card{
+        margin: 5% 0 !important; 
+    }
+ }
+@media (max-width: 991.98px) { 
+    #button{
+        padding: 2em 1em;
+    }
+}
+@media (min-width: 991.98px) { 
+    #button{
+        padding: 2em 1em;
+    }
+    .row-cols-5 > * {
+        flex: 0 0 auto !important;
+        width: 20% !important;
+    }
+}
+@media (min-width: 1199.98px) { 
+    #button{
+        margin-top: -50px;
+    }
+ }
+.tabs {
+    margin:auto;
+    text-align: center;
+}
+
+.tabs>input[type="radio"] {
+    display: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+    font-weight: bold;
+    cursor: default;
+    border-bottom-style: solid;
+}
+
+.tabs>div {
+    display: none;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3,
+#tab-btn-4:checked~#content-4,
+#tab-btn-5:checked~#content-5 {
+    display: block;
+}
+
+.tabs>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 2px 0;
+    transition: color 0.15s ease-in-out;
+    margin-left: 6px;
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2F185F;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px #BEC8F5;
+    border-radius: 10px;
+    margin: 5% 20%;
+    padding: 40px;
+}
+.card-text{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #2F185F;
+}
+.card-header-text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #2F185F;
+    padding: 20px;
+}
+.card-ico{
+    position: absolute;
+    left: -15px;
+    top: -45px;
+}
+.txtal-c{
+    text-align: center;
+}
+.photo{
+    background: url('../img/Ellipse.svg');
+    background-repeat: round;
+    background-size: 199px;
+}
+.prep-card{
+    padding: 40px;
+}
+.full-name{
+    font-size: 20px; 
+    line-height: 140%;
+    word-spacing: 1000px;
+}
+.container-fluid>div>div>img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}

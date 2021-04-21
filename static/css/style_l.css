@@ -1,0 +1,62 @@
+a{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+}
+html{
+    height: auto;
+}
+body{
+    background-image: url(../img/back_h.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: auto;
+}
+.nav-up{
+    padding: 20px 0;
+}
+.nav-up-40{
+    padding: 40px 0;
+}
+.main-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.thin-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.btn-primary{
+    background-color: #5b98e3 !important;
+    border: 0 !important;
+}
+.img-fluid{
+    margin: auto;
+}
+.padx-5{
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+@media (max-width: 991.98px) { 
+    .padx-5 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .btn{
+        width: 100%;
+    }
+}
+@media (min-height: 991.98px) {
+    html{
+        height: 100%;
+    }
+}

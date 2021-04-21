@@ -1,0 +1,338 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="{% static './img/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
+    <link rel="stylesheet" href="{% static './css/bootstrap.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <title>Международная научно-практическая онлайн-олимпиада</title>
+</head>
+<body>
+    <div class="bg-image" style="background-image: url({%static './img/back.png' %});">
+        <div class="container">
+            <div class="row nav-up">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <img src="{% static './img/logo 1.png' %}" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row nav-up">
+                <div class="col-lg-5 col-md-12 col-12" id="text-block">
+                    <span class="fs-1 main-text">Международная научно-практическая онлайн-олимпиада</span>
+                </div>
+                
+                <div class="col-lg-7 col-md-12 col-12">
+                    <img src="{% static './img/Group.svg' %}" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-3 col-md-12 col-12" id="button">
+                    <button type="button" class="btn btn-primary btn-lg"><a href="/sing-in/">Принять уастие</a></button>
+                </div>
+            </div>
+            <div class="row nav-up">
+                <div class="col-lg-3 col-md-12 col-12" style="margin: auto 0;">
+                    <span class="thin-text">Место проведения онлайн-олимпиады:</span>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12">
+                    <span class="bold-text">Ростовский государственный экономический университет (РИНХ), Точка кипения РГЭУ (РИНХ)
+                        г. Ростов-на-Дону, ул. Б. Садовая, 69</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-image" style="background: linear-gradient(89.95deg, #211EAA 0.04%, #3648B9 99.96%);">
+        <div class="container">
+            <div class="row nav-up">
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <span class="fs-5 bold-text">Соорганизаторы:</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg col-md-12 col-12">
+                            <span class="cards-text">Ростовский государственный экономический университет (РИНХ)</span>
+                        </div>
+                        <div class="col-lg col-md-12 col-12">
+                            <span class="cards-text">Федеральная служба по финансовому мониторингу</span>
+                        </div>
+                        <div class="col-lg col-md-12 col-12">
+                            <span class="cards-text">Международный учебно-методический центр финансового мониторинга</span>
+                        </div>
+                        <div class="col-lg col-md-12 col-12">
+                            <span class="cards-text">Международный сетевой институт в сфере ПОД/ФТ</span>
+                        </div>
+                        <div class="col-lg col-md-12 col-12">
+                            <span class="cards-text">Ростовское региональное отделение Вольного экономического общества России</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <span class="fs-5 bold-text">при поддержке</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg col-md-12 col-12">
+                            <span class="cards-text">Аппарата полномочного представителя Президента РФ в Южном федеральном округе</span>
+                        </div>
+                        <div class="col-lg col-md-12 col-12">
+                            <span class="cards-text">Правительства Ростовской области</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row nav-up-70">
+            <div class="col-lg-12 col-md-12 col-12 py-3">
+                <p class="fs-2 thin-text" style="color: #2A30B1;">Олимпиада включает два этапа, проводимые в заочной форме с применением дистанционных образовательных технологий:</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 py-3">
+                <span class="thin-text" style="color: #2A30B1; font-size: 20px">Первый этап представляет собой отборочный тур и предполагает выполнение индивидуальных тестовых заданий. Все участники первого этапа Олимпиады получают Сертификат установленного образца.</span>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 py-3">
+                <span class="thin-text" style="color: #2A30B1; font-size: 20px">Второй этап к участию допускаются участники Первого этапа Олимпиады, набравшие наибольшее количество баллов. Второй этап предполагает выполнение индивидуальных тестовых заданий повышенного уровня сложности и решение кейс-задания.</span>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 py-3">
+                <span class="thin-text" style="color: #2A30B1; font-size: 20px"></span>
+            </div>
+            <div class="col-lg-3 col-md-12 col-12 py-3">
+                <span class="thin-text" style="color: #2A30B1; font-size: 20px">Победители Второго этапа Олимпиады получают Дипломы Победителей (1-е, 2-е и 3-е место).</span>
+            </div>
+            <div class="col-lg-3 col-md-12 col-12 py-3">
+                <span class="thin-text" style="color: #2A30B1; font-size: 20px">Участники, набравшие наибольшее количество баллов после победителей, получают Дипломы Лауреатов.</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 cpl-md-12 col-12">
+                <p class="fs-1 headers-text">Цели</p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="tabs">
+                    <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                    <label for="tab-btn-1">Творческие спосбности</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                    <label for="tab-btn-2">Одаренные дети</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                    <label for="tab-btn-3">Научные знания</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-4" value="">
+                    <label for="tab-btn-4">Профессиональная ориентация</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-5" value="">
+                    <label for="tab-btn-5">Талантливая молодеж</label>
+
+                    <div class="card" id="content-1">
+                        <img src="{% static './img/card_ico.svg' %}" alt="" class="card-ico">
+                        <div class="card-header-text">Творческие способности</div>
+                        <div class="card-text">Выявление и развитие у учащихся, осваивающих общеобразовательные программы основного общего и среднего общего образования, творческих способностей и интереса к научно-исследовательской деятельности</div>
+                    </div>
+                    <div class="card" id="content-2">
+                        <img src="{% static './img/card_ico.svg' %}" alt="" class="card-ico">
+                        <div class="card-header-text">Одаренные дети</div>
+                        <div class="card-text">Выявление и развитие у учащихся, осваивающих общеобразовательные программы основного общего и среднего общего образования, творческих способностей и интереса к научно-исследовательской деятельности</div>
+                    </div>
+                    <div class="card" id="content-3">
+                        <img src="{% static './img/card_ico.svg' %}" alt="" class="card-ico">
+                        <div class="card-header-text">Научные знания</div>
+                        <div class="card-text">Выявление и развитие у учащихся, осваивающих общеобразовательные программы основного общего и среднего общего образования, творческих способностей и интереса к научно-исследовательской деятельности</div>
+                    </div>
+                    <div class="card" id="content-4">
+                        <img src="{% static './img/card_ico.svg' %}" alt="" class="card-ico">
+                        <div class="card-header-text">Профессиональная ориентация</div>
+                        <div class="card-text">Выявление и развитие у учащихся, осваивающих общеобразовательные программы основного общего и среднего общего образования, творческих способностей и интереса к научно-исследовательской деятельности</div>
+                    </div>
+                    <div class="card" id="content-5">
+                        <img src="{% static './img/card_ico.svg' %}" alt="" class="card-ico">
+                        <div class="card-header-text">Талантливая молодеж</div>
+                        <div class="card-text">Выявление и развитие у учащихся, осваивающих общеобразовательные программы основного общего и среднего общего образования, творческих способностей и интереса к научно-исследовательской деятельности</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row nav-up">
+            <div class="col-lg-12 col-md-12 col-12">
+                <p class="fs-1 headers-text">Программный комитет олимпиады</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep1.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Боев Василий Юрьевич</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">проректор по учебной работе РГЭУ (РИНХ), заведующий кафедрой экономики региона, отраслей и предприятий РГЭУ (РИНХ), к.э.н., доцент.</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep2.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Жебровская Людмила Анатольевна</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">начальник Управления компьютеризации учебной и административной деятельности РГЭУ (РИНХ), к.э.н., доцент</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep3.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Молчанов Евгений Григорьевич</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">декан факультета Экономики и финансов РГЭУ (РИНХ), к.э.н.</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep4.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Андреева Ольга Валентиновна</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">руководитель Центра стратегических исследований социально-экономического развития Юга России</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep5.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Романова Татьяна Федоровна</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">заведующий кафедрой финансов РГЭУ (РИНХ), д.э.н., профессор</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep6.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Семенюта Ольга Гетовна</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">заведующий кафедрой банковского дела РГЭУ (РИНХ), д.э.н., профессор</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep7.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Медведкина Евгения Александровна</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">заведующий кафедрой мировой экономики РГЭУ (РИНХ), д.э.н., доцент</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 prep-card">
+                <div class="photo txtal-c">
+                    <img src="{% static './img/prep8.png' %}" width="110px" height="160px" alt="">
+                </div>
+                <div class="txtal-c">
+                    <span class="full-name headers-text">Мусаелян Анжелика Капреловна</span>
+                </div>
+                <div class="txtal-c">
+                    <span class="thin-text" style="color: #211EAA;">заведующий кафедрой налогов и налогообложения РГЭУ (РИНХ), к.э.н., доцент</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid g-0">
+        <div class="row row-cols-5 g-0">
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto1.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto2.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto3.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto2.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto3.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto2.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto3.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto2.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto3.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto1.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto1.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto2.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto3.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto2.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 col-12">
+                <img src="{% static './img/foto3.png' %}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid g-0">
+        <div class="row nav-up" style="margin-right: 0;">
+            <div class="col-lg-12 col-md-12 col-12">
+                <p class="fs-1 headers-text">Контакты</p>
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-8 col-md-12 col-12" style="background-color: #4340C9; padding: 60px 50px;">
+                <div class="bold-text" style="font-size: 21px;">
+                    <span>г. Ростов-на-Дону, ул. Б. Садовая, 69</span>
+                </div>
+                <div class="thin-text" style="font-size: 15px;">
+                    <span>Ростовский государственный экономический университет (РИНХ)</span>
+                </div>
+                <div class="medium-text">
+                    <span>Точка кипения РГЭУ (РИНХ)</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12" style="background-color: #0A72ED; padding: 60px 20px;">
+                <div class="fs-1 bold-text txtal-c">
+                    <span>+7 (863) 345-40-40</span>
+                </div>
+                <div class="thin-text txtal-c" style="font-size: 24px; color: #ACD2FF;">
+                    <span>fnauka@bk.ru</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid g-0">
+        <div class="row"  style="margin-right: 0;">
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.6904289973745!2d39.71591351552224!3d47.222639279161115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b912d1b908fb%3A0xf448c3f26e7c8247!2z0KDQmNCd0KU!5e0!3m2!1sru!2sru!4v1618941172785!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
